@@ -1,0 +1,29 @@
+
+.cpContainer{
+  display:flex;
+  flex-direction:column;
+  position: relative;
+  max-width:200px;
+  //height:100vh;
+  background-color:#f0f0f0;
+  
+}
+
+.cpItem{
+  display:flex;
+  align-items: center;
+}
+.cpItem:hover{
+  background-color:#c9e1f5;
+  cursor:pointer;
+}
+
+
+.itemSelected{
+  background-color:#495966;
+  color:#fff;
+}
+
+.cpItemIcon{
+  margin: 8px;
+}

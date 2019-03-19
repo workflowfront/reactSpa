@@ -1,0 +1,78 @@
+$bg-color: rgb(random(40), random(40), random(40));
+$bg-color2: rgb(random(40)+60, random(40)+60, random(40)+60);
+$border-color: rgba(random(40)+200, random(40)+200, random(40)+200, 0.6);
+$font-color: rgb(random(100)+100, random(100)+100, random(200)+100);
+
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url('https://fonts.googleapis.com/css?family=Contrail+One');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+
+
+.react-form {
+ float: right;
+  line-height: 3px;
+  font-size: 20px;
+  height: 400px;
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 0px 25px;
+  background: linear-gradient(#0b84e6, #162a33);
+  border: 4px solid $border-color;
+  box-shadow: 3px 3px 30px snow;
+
+
+h1 {
+    color:white;
+  margin-top: 25px;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+}
+}
+fieldset {
+  height: 30px;
+  border: none;
+  text-align: center;
+  display: block;
+  padding: 20px 0px;
+  
+  input, #formMessage {
+    background-color: #162a33;
+    border: 1px solid #162a33;
+    width: 60%;
+    color: $border-color;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 0 15px;
+  }
+  
+  label {
+      color:white;
+    display: block;
+      height: 20px;
+  }
+  
+}
+div.form-group{
+    margin-top: 35px;
+}
+
+#formButton {
+  display: block;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 32px;
+  width: 120px;
+  background-color: #162a33;
+  color: white;
+  border: 1px solid $border-color;
+  cursor: pointer;
+  font-family: 'Press Start 2P', cursive;
+  text-transform: lowercase;
+  border-radius: 0 15px;
+  
+  &:hover {
+    background-color: darkblue;
+  }
+}
